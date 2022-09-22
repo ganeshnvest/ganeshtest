@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+      <title>Resume Generator</title>
+   </head>
+   <body>
+      <div class="container">
+         <div class="row">
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4"><img src="logo.jpg"></div>
+            <div class="col-sm-4"></div>
+         </div>
+      </div>
+      <div class="container" style="border: 2px solid #bad3e6;">
+         <form action="./result.php" method="post">
+            <h3>Name</h3>
+            <input type="text" name="Name" value="John Doe" style="width: 100%;
+               border: 2px solid #c5cecd;
+               height: 41px;
+               border-radius: 10px;">
+            <h3>Designation</h3>
+            <input type="text" name="Designation" value="Business Development Manager" style="width: 100%;
+               border: 2px solid #c5cecd;
+               height: 41px;
+               border-radius: 10px;">
+            <h3>Description</h3>
+            <textarea name="Description" cols="30" rows="10" style="width: 100%;
+               border: 2px solid #c5cecd;
+               height:132px;
+               border-radius: 10px;">Professional Business Developer with more than four years of experince in the business development process. Involved in product testing, management, and development of new business opportunitites.</textarea>
+            <div class="row">
+               <div class="col-sm-4">
+                  <h3>Phone</h3>
+                  <input type="phone" name="Phone" value="202-555-0166" style="width: 100%;
+                     border: 2px solid #c5cecd;
+                     height: 41px;
+                     border-radius: 10px;">
+               </div>
+               <div class="col-sm-4">
+                  <h3>Email</h3>
+                  <input type="email" name="Email" value="john.doe@gmail.com" style="width: 100%;
+                     border: 2px solid #c5cecd;
+                     height: 41px;
+                     border-radius: 10px;">
+               </div>
+               <div class="col-sm-4">
+                  <h3>Location</h3>
+                  <input type="text" name="Location" value="New York, USA" style="width: 100%;
+                     border: 2px solid #c5cecd;
+                     height: 41px;
+                     border-radius: 10px;">
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-sm-6">
+                  <h3>LinkedIN URL</h3>
+                  <input type="text" name="linkedin" value="linkedin.com/in/john.doe" style="width: 100%;
+                     border: 2px solid #c5cecd;
+                     height: 41px;
+                     border-radius: 10px;">
+               </div>
+               <div class="col-sm-6">
+                  <h3>Skype URL</h3>
+                  <input type="text" name="skype" value="john.doe" style="width: 100%;
+                     border: 2px solid #c5cecd;
+                     height: 41px;
+                     border-radius: 10px;">
+               </div>
+            </div>
+            <div class="row">
+               <h3>Work Experience</h3>
+               <div class="col-sm-4">  <input type="text" name="Designation1" value="Business Development Manager"style="width: 100%;
+                  border: 2px solid #c5cecd;
+                  height: 41px;
+                  border-radius: 10px;" ></div>
+               <div class="col-sm-4"><input type="text" name="Organization1" value="AirState Solutions" style="width: 100%;
+                  border: 2px solid #c5cecd;
+                  height: 41px;
+                  border-radius: 10px;"></div>
+               <div class="col-sm-4"> <input type="month" name="Start1" min="1950-01" value="2014-04" style="width: 100%;
+                  border: 2px solid #c5cecd;
+                  height: 41px;
+                  border-radius: 10px;"></div>
+            </div>
+            </br>
+            <div class="row">
+               <div class="col-sm-6"> <input type="month" name="End1" min="1950-01" value="2017-06" style="width: 100%;
+                  border: 2px solid #c5cecd;
+                  height: 41px;
+                  border-radius: 10px;"></div>
+               <div class="col-sm-6"> <input type="location" name="Location1" value="New York, USA" style="width: 100%;
+                  border: 2px solid #c5cecd;
+                  height: 41px;
+                  border-radius: 10px;"></div>
+            </div>
+            <ul>Successfully managed $2 - $3 million budget projects and succcessfully achieved the projects scheduled goals.</ul>
+            <ul>Developed and implmented new marketing and sales plans and defined strategy for the next 5 years.</ul>
+            <ul>Reviewed constantly the customer feedback and then suggested ways to improve the processes and customer service levels which increased the satisfaction rate from 81% to 95%.</ul>
+            <ul>Ensured that new clients will grow into a loyal customer base in a specialist niche market by implementing a new loyalty program.</ul>
+            <div class="row">
+               <div class="col-sm-4">  <input type="text" name="Designation2" value="Business Development Assistant" style="width: 100%;
+                  border: 2px solid #c5cecd;
+                  height: 41px;
+                  border-radius: 10px;"></div>
+               <div class="col-sm-4"> <input type="text" name="Organization2" value="AirState Solutions" style="width: 100%;
+                  border: 2px solid #c5cecd;
+                  height: 41px;
+                  border-radius: 10px;"></div>
+               <div class="col-sm-4">  <input type="month" name="Start2" min="1950-01" value="2012-08" style="width: 100%;
+                  border: 2px solid #c5cecd;
+                  height: 41px;
+                  border-radius: 10px;"></div>
+            </div>
+            </br>
+            <div class="row">
+               <div class="col-sm-6"><input type="month" name="End2" min="1950-01" value="2014-09" style="width: 100%;
+                  border: 2px solid #c5cecd;
+                  height: 41px;
+                  border-radius: 10px;"></div>
+               <div class="col-sm-6">  <input type="location" name="Location2" value="Chicago, USA" style="width: 100%;
+                  border: 2px solid #c5cecd;
+                  height: 41px;
+                  border-radius: 10px;"></div>
+            </div>
+            <ul>Increased the customer satisfaction rate by 25% by improving the customer service.</ul>
+            <ul>Planned, supervised and coordinated daily activity of 3 junior business analysts.</ul>
+            <ul>Improved the communication with the Marketing department to better understand the competitive position.</ul>
+            <ul>Directed the creation and implementation of a Business Continuity Plan, and the management of audit programs.</ul>
+            <h3>Education</h3>
+            <div class="row">
+               <div class="col-sm-3">    <input type="text" name="Degree" value="MSc in Economics and Business Administration"  style="width: 100%;
+                  border: 2px solid #c5cecd;
+                  height: 41px;
+                  border-radius: 10px;"></div>
+               <div class="col-sm-3"><input type="text" name="University" value="The University of Chicago"  style="width: 100%;
+                  border: 2px solid #c5cecd;
+                  height: 41px;
+                  border-radius: 10px;"></div>
+               <div class="col-sm-3"> <input type="month" name="Start" min="1950-01" value="2008-09"  style="width: 100%;
+                  border: 2px solid #c5cecd;
+                  height: 41px;
+                  border-radius: 10px;"></div>
+               <div class="col-sm-3">    <input type="month" name="End" min="1950-01" value="2010-06"  style="width: 100%;
+                  border: 2px solid #c5cecd;
+                  height: 41px;
+                  border-radius: 10px;"></div>
+            </div>
+            <h3>Languages</h3>
+            <div class="row">
+               <div class="col-sm-4"> <input type="text" id="Language-1" name="Language1" value="English" style="width: 100%;
+                  border: 2px solid #c5cecd;
+                  height: 41px;
+                  border-radius: 10px;">
+                  <input type="range" id="volume" name="Language1v">
+               </div>
+               <div class="col-sm-4">  <input type="text" id="Language-2" name="Language2" value="Spanish" style="width: 100%;
+                  border: 2px solid #c5cecd;
+                  height: 41px;
+                  border-radius: 10px;">
+                  <input type="range" id="Language-2"name="Language2v" min="0" max="5">
+               </div>
+               <div class="col-sm-4"> <input type="text" id="Language-3" name="Language3" value="French" style="width: 100%;
+                  border: 2px solid #c5cecd;
+                  height: 41px;
+                  border-radius: 10px;">
+                  <input type="range" id="Language-3"name="Language3v" min="0" max="5">
+               </div>
+            </div>
+            <h3>Skills</h3>
+            <input type="text" id="Skills" name="Skills" value="SEO, Public Speaking, Negotiation, Teamwork, Decision Making, Research & strategy, Emotional Intelligence, Outbound Marketing, Google Analytics, Sales and Marketing, Social Media Marketing, Email Marketing" style="width: 100%;
+               border: 2px solid #c5cecd;
+               height: 41px;
+               border-radius: 10px;">
+            <h3>Organizations</h3>
+            <div class="row">
+               <div class="col-sm-4"> <input type="text" name="Organisation1" value="American Management Association" style="width: 100%;
+                  border: 2px solid #c5cecd;
+                  height: 41px;
+                  border-radius: 10px;"></div>
+               <div class="col-sm-4"> <input type="month" name="from1" value="2015-01" style="width: 100%;
+                  border: 2px solid #c5cecd;
+                  height: 41px;
+                  border-radius: 10px;"></div>
+               <div class="col-sm-4">   <input type="month" name="to1" value="2015-01" style="width: 100%;
+                  border: 2px solid #c5cecd;
+                  height: 41px;
+                  border-radius: 10px;"></div>
+            </div>
+            </br>
+            <div class="row">
+               <div class="col-sm-4"><input type="text" name="Organisation2" value="Association of Private Enterprise Education" style="width: 100%;
+                  border: 2px solid #c5cecd;
+                  height: 41px;
+                  border-radius: 10px;"></div>
+               <div class="col-sm-4"> <input type="month" name="from2" value="2014-01" style="width: 100%;
+                  border: 2px solid #c5cecd;
+                  height: 41px;
+                  border-radius: 10px;"></div>
+               <div class="col-sm-4"><input type="month" name="to2" value="2014-01" style="width: 100%;
+                  border: 2px solid #c5cecd;
+                  height: 41px;
+                  border-radius: 10px;"></div>
+            </div>
+            </br>
+            <div class="row">
+               <div class="col-sm-4">  <input type="text" name="Organisation3" value="eBusiness Association(eBA)" style="width: 100%;
+                  border: 2px solid #c5cecd;
+                  height: 41px;
+                  border-radius: 10px;"></div>
+               <div class="col-sm-4"><input type="month" name="from3" value="2013-01" style="width: 100%;
+                  border: 2px solid #c5cecd;
+                  height: 41px;
+                  border-radius: 10px;"></div>
+               <div class="col-sm-4"> <input type="month" name="to3" value="2013-01" style="width: 100%;
+                  border: 2px solid #c5cecd;
+                  height: 41px;
+                  border-radius: 10px;"></div>
+            </div>
+            <h3>Honours and Awards</h3>
+            <div class="row">
+               <div class="col-sm-4"> <input type="text" name="Honour1" value="Jury Member, Venture Cup Entreprenuership Competition (2016)" style="width: 100%;
+                  border: 2px solid #c5cecd;
+                  height: 41px;
+                  border-radius: 10px;"></div>
+               <div class="col-sm-4"><input type="text" name="Award1" value="Venture Cup, USA" style="width: 100%;
+                  border: 2px solid #c5cecd;
+                  height: 41px;
+                  border-radius: 10px;"></div>
+               <div class="col-sm-4">    <input type="text" name="Honour2" value="Sales Individual & Business Development Award (2015)" style="width: 100%;
+                  border: 2px solid #c5cecd;
+                  height: 41px;
+                  border-radius: 10px;"></div>
+            </div>
+            </br>
+            <div class="row">
+               <div class="col-sm-4"> <input type="text" name="Award2" value="AirState Business Awards" style="width: 100%;
+                  border: 2px solid #c5cecd;
+                  height: 41px;
+                  border-radius: 10px;"></div>
+               <div class="col-sm-4"><input type="text" name="Honour3" value="Excellence in Customer Parterning Awards" style="width: 100%;
+                  border: 2px solid #c5cecd;
+                  height: 41px;
+                  border-radius: 10px;"></div>
+               <div class="col-sm-4"> <input type="text" name="Award3" value="IES - Institute of Excellence in Sales" style="width: 100%;
+                  border: 2px solid #c5cecd;
+                  height: 41px;
+                  border-radius: 10px;"></div>
+            </div>
+            <h3>Conferences & Courses</h3>
+            <div class="row">
+               <div class="col-sm-4" > <input type="text" name="Course1" value="Leading People and Teams- Specialisation" style="width: 100%;
+                  border: 2px solid #c5cecd;
+                  height: 41px;
+                  border-radius: 10px;"></div>
+               <div class="col-sm-4"><input type="text" name="Subtitle1" value="Online course on Coursera.org" style="width: 100%;
+                  border: 2px solid #c5cecd;
+                  height: 41px;
+                  border-radius: 10px;"></div>
+               <div class="col-sm-4">
+                  <input type="text" name="Course2" value="eMetrics Summit (09/2016)" style="width: 100%;
+                     border: 2px solid #c5cecd;
+                     height: 41px;
+                     border-radius: 10px;">
+               </div>
+            </div>
+            </br>
+            <div class="row">
+               <div class="col-sm-4" >
+                  <input type="text" name="Subtitle2" value="Rising Media, Inc. and eMetrics Summit" style="width: 100%;
+                     border: 2px solid #c5cecd;
+                     height: 41px;
+                     border-radius: 10px;">
+               </div>
+               <div class="col-sm-4"> <input type="text" name="Course3" value="Project Management Principles and Practices (01/2015 - 09/2015)" style="width: 100%;
+                  border: 2px solid #c5cecd;
+                  height: 41px;
+                  border-radius: 10px;"></div>
+               <div class="col-sm-4">      <input type="text" name="Subtitle3" value="Online course on Coursera.org" style="width: 100%;
+                  border: 2px solid #c5cecd;
+                  height: 41px;
+                  border-radius: 10px;"></div>
+            </div>
+            </br>
+            <div class="finebut" style="text-align:center">
+               <input type="submit" name="submit" style="    background-color: #13a4d0;
+                  border: 1px solid #ffffff;
+                  color: #ffffff;
+                  width: 123px;
+                  height: 39px;">
+               <input type="reset"  style="background-color: #d03b13;
+                  border: 1px solid #ffffff;
+                  color:#ffffff;
+                  width: 123px;
+                  height: 39px;">
+            </div>
+         </form>
+      </div>
+   </body>
+</html>
